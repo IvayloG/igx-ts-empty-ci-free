@@ -6,7 +6,6 @@
     "start": "ng serve -o",
     "build": "ng build --configuration production",
     "test": "ng test",
-    "test:headless": "ng test --watch=false --browsers=ChromeHeadlessCustom",
     "lint": "ng lint"
   },
   "private": true,
