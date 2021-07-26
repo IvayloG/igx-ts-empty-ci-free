@@ -6,6 +6,7 @@
     "start": "ng serve -o",
     "build": "ng build --configuration production",
     "test": "ng test",
+    "test:headless": "ng test --watch=false --browsers=ChromeHeadlessCustom",
     "lint": "ng lint"
   },
   "private": true,
@@ -52,6 +53,7 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "protractor": "~7.0.0",
+    "puppeteer": "^10.1.0",
     "ts-node": "~9.1.1",
     "typescript": "~4.2.3"
   }
